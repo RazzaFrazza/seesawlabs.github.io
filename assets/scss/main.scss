@@ -321,6 +321,7 @@ $navPaddingTop: 2em;
     padding-top: 2em;
 }
 
+
 .robotoRegular {
     font-family: robotoRegular;
     font-size: 14px;
@@ -328,7 +329,13 @@ $navPaddingTop: 2em;
 
 #footerEmail  {
 
-    margin-top: 2.5em;
+
+    a {
+    color: $color3;
+      }
+}
+
+#footerEmailLarge {
 
     a {
     color: $color3;
@@ -340,6 +347,11 @@ $navPaddingTop: 2em;
 }
 
 #footerCopyRight {
+    color: #231f20;
+    font-size: 14pt;
+}
+
+#largeFooterCopyRight{
     color: #231f20;
 }
 
@@ -454,7 +466,7 @@ $navPaddingTop: 2em;
     padding-right: 6em;
 }
 
-#largeFooterEmail {
+#footerEmailLarge {
         position: relative;
     top: -2.4em;
 }
@@ -492,13 +504,42 @@ a:hover{
     margin-left: 12.3%;
 }
 
+
+
+#nonCollapsedMenu .caseStudiesCaseStudiesLink {
+    color: $color3;
+}
+
+#desktopNavLinks  .caseStudiesCaseStudiesLink {
+    color: $color3; 
+}
+
+#tabletNavLinks .caseStudiesCaseStudiesLink {
+    color: $color3;
+}
+
+
 .caseStudyDiv {
     background-attachment: fixed;
     height: 531px;
-    background-image: url(../images/featuredCaseStudyBackground.png);
+     background-image: url(../images/caseStudiesBackgroundColor.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.caseStudyDiv2 {
+            background-image: url(../images/caseStudiesBackgroundDark2.png);
+            margin-top: 1em;
+}
+
+.caseStudyDiv3{
+
+   margin-top: 1em;
+      background-image: url(../images/caseStudiesBackgroundDark.png);
+
+}
+
+
 
 .fullColorBackground {
     background-color: #929D68;
@@ -522,13 +563,14 @@ a:hover{
 
 .caseStudyParagraph1 {
 
-        font-family: openSansRegular;
-    font-size: 17px;
+        font-family: robotoRegular;
+    font-size: 14pt;
     position: relative;
 }
 
 .caseStudyParagraph2 {
- 
+ font-family: robotoRegular;
+ font-size: 14pt; 
  text-align: center;
 
 }
@@ -552,9 +594,148 @@ a:hover{
 //Case Study Section Ends
 
 
+//Contact Page 
 
 
+#nonCollapsedMenu .contactContactLink {
+    color: $color3;
+}
 
+#desktopNavLinks  .contactContactLink {
+    color: $color3; 
+}
+
+#tabletNavLinks .contactContactLink {
+    color: $color3;
+}
+
+#googleMap {
+    height: 250px;
+    width: 100%;
+}
+
+
+ 
+.locationInfo{
+    background-color: #fff;
+    display: inline-block;
+    padding-top: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.cSection1 {
+    text-align: center;
+    background-color: $color2;
+    padding:2em;
+    height: 400px;
+}
+
+
+.cSection1H1Header{
+    color: #fff;
+    margin-top: 1em;
+    line-height: 1.3em;
+}
+
+.cSection1H3Header {
+    color: #fff;
+}
+
+.cSectionParagraph {
+    color: $color2; 
+    font-family: openSansBold;
+    font-size: 18pt;
+}
+
+
+.cSectionParagraph1 {
+    color: $color3; 
+    margin-top: 1em;
+}
+
+.cSectionParagraph2 {
+    margin-bottom: 2em;
+}
+
+.cSectionParagraph2, .cSectionParagraph3 {
+    color: $color2;
+}
+
+.cSectionParagraph3 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cSubmitButton {
+    border-radius: 0;
+    font-family: robotoBold;
+    font-size: 15pt;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.cSection2 {
+    text-align: center;
+    .contactForm {
+            padding-top: 2em;
+    margin-top: 2em;
+    width: 100%;
+    height: 520px;
+    }
+}
+
+.contactForm {
+    display: inline-block;
+        background-color: $color5;
+}
+
+.contactFormInput {
+    width: 90%;
+    margin-left: 1em;
+    border-radius: 0;
+}
+
+.contactFormTextStyle{
+        color: #fff;
+    font-family: openSansBold;
+    font-size: 18pt;
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.contactFormHelpMessage {
+    font-size: 18px; 
+}
+
+.cSubmitButton {
+        border: 3px solid#fff;
+    width: 200px;
+    font-family: openSansBold;
+    font-size: 18pt;
+}
 
 #nonCollapsedMenu {
     background-color: $color1;
@@ -592,13 +773,23 @@ a:hover{
     p {
         font-family: openSansRegular;
         font-size: 17px;
-        color: $color2;
+        color: $color8;
         text-align: center;
         padding-top: 1em;
     }
 }
 
+
+
 //Services Page
+
+.sSection1BeforeImage {
+    background-image: url('../images/servicesBeforeImage.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 60%;
+}
 
 .sSection1 {
     background-color: $color2;
@@ -627,6 +818,7 @@ a:hover{
     padding-bottom: 2em;
 }
 
+
 .sSection1H3Header {
     color: #fff;
 }
@@ -634,10 +826,7 @@ a:hover{
 .sSection1H1Header {
     color: #fff;
     margin-top: 1em;
-}
 
-.sSection1H3Header {
-    color: #fff;
 }
 
 .sSection1Paragraph {
@@ -645,6 +834,7 @@ a:hover{
     font-family: openSansRegular;
     margin-top: 3em;
     font-size: 17pt;
+
 }
 
 .sSection2 {
@@ -679,6 +869,22 @@ a:hover{
 }
 
 //About Page
+
+
+
+
+#nonCollapsedMenu .aboutAboutLink {
+    color: $color3;
+}
+
+#desktopNavLinks  .aboutAboutLink {
+    color: $color3; 
+}
+
+#tabletNavLinks .aboutAboutLink {
+    color: $color3;
+}
+
 
 
 .desktopImages {
@@ -932,13 +1138,40 @@ padding-bottom: 0;
 
 //End About Page
 
+.sSection2Border {
+    border-width: 5px;
+    -moz-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
+    -webkit-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
+    -webkit-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
+    -o-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
+    border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
+    width: 95%;
+    margin-top: 2em;
+}
+
+
+#happyClientsDiv {
+
+    h1 {
+        color: $color2;
+    }
+}
+
+#happyClientsParagraph {
+    color: $color8;
+    font-size: 17pt;
+}
+
+#happyClientsBorder {
+    width: 20%;
+}
+
 #homepageServiceBoxContainer {
     text-align: center;
     h3 {
         font-family: openSansBold;
         font-size: 18pt;
-        font-color: $color8;
-        color: $color8;
+        color: $color2;
         text-align: center;
         padding-bottom: 1em;
     }
@@ -946,6 +1179,7 @@ padding-bottom: 0;
         font-family: robotoRegular;
         size: 14pt;
         text-align: center;
+        color: $color8;
     }
     a {
         color: $color3;
@@ -1009,7 +1243,7 @@ padding-bottom: 0;
 
 #exploreCaseStudies {
     span {
-        font-family: robotoBold;
+        font-family: openSansBold;
         text-transform: uppercase;
         font-size: 15px;
         color: #fff;
@@ -1207,6 +1441,20 @@ padding-bottom: 0;
 @include media-breakpoint-up(sm) {
 
 
+    .cSection1 {
+    height: 320px;
+}
+.contactForm {
+  padding-left: 1.5em;
+}
+
+
+  .contactFormButtonDiv{
+    padding-right: 1.5em;
+  }
+
+
+
 .section4H2Header:before {
     content: " ";
     display: block;
@@ -1225,6 +1473,11 @@ padding-bottom: 0;
     #socialMediaBar{
         padding-left: 20%;
         padding-right: 20%;
+        top: 0;
+    }
+
+    #footerEmail{
+        margin-top: 2em;
     }
 
    #wantToWorkWithUsParagraph2 {
@@ -1251,8 +1504,6 @@ padding-bottom: 0;
     #homepageHeroText {
         p {
             font-size: 18px;
-            margin-left: 1em;
-            margin-right: 1em;
         }
     }
     #exploreCaseStudiesRow {}
@@ -1298,7 +1549,9 @@ padding-bottom: 0;
 
 @media only screen and (min-width: 40.625em) {
 
-
+ .cSection1 {
+    height: 250px;
+ }
 
            .section1 {
         height: 620px;
@@ -1351,6 +1604,11 @@ padding-bottom: 0;
 }
 
 @include media-breakpoint-up(md) {
+
+  .cSection2 {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 
 
     .section1 {
@@ -1435,11 +1693,19 @@ padding-bottom: 0;
             margin-right: 0;
         }
     }
+
+    #homepageHeroText {
+        p {
+            margin-left: 7em;
+        }
+    }
 }
 
 @include media-breakpoint-up(lg) {
 
-
+#footerEmail{
+    margin-top: 0;
+}
 .sSection2ContentDiv {
     margin-top: 4em;
     margin-bottom: 4em;
@@ -1547,7 +1813,6 @@ padding-bottom: 0;
     padding-top: 2em;
     background-attachment: fixed;
     height: 531px;
-    background-image: url(../images/caseStudiesBackgroundColor.png);
     background-position: 60% 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1557,8 +1822,6 @@ padding-bottom: 0;
 
 .caseStudyDiv2 {
 
-        background-image: url(../images/caseStudiesBackgroundDark2.png);
-
     .fullColorBackground {
         background-color: initial;
     }
@@ -1566,8 +1829,6 @@ padding-bottom: 0;
 
 .caseStudyDiv3 {
 
-
-    background-image: url(../images/caseStudiesBackgroundDark.png);
 
     .fullColorBackground {
         background-color: rgba(#D54E30 ,0.8);
@@ -1608,7 +1869,7 @@ padding-bottom: 0;
 
 .caseStudyParagraph1 {
         font-family: robotoRegular;
-    font-size: 14px;
+    font-size: 14pt;
         margin-left: 7% ;
             padding-top: 2em;
     padding-left: 5%;
@@ -1767,6 +2028,7 @@ border: 2px solid #fff;
         p {
             width: 75%;
             font-size: 31px !important;
+            margin-left: 4em;
         }
     }
     .navbar-toggler {
@@ -1778,7 +2040,7 @@ border: 2px solid #fff;
     #tabletNavLogo {
         display: none;
     }
-    #desktopNavLinks {
+    #desktopNavLinks { 
         display: initial;
     }
     #desktopNavLogo {
@@ -1795,6 +2057,42 @@ border: 2px solid #fff;
 }
 
 @include media-breakpoint-up(xl) {
+
+.locationInfo {
+
+    width: initial;
+
+}
+
+.cSection1H1Header {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.cSection2 {
+    padding-bottom: 20em;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+
+    .contactForm {
+            padding-top: 2em;
+    margin-top: 2em;
+    width: 500px;
+    height: 520px;
+    background-color: #e8b826;
+    margin-right: 5em;
+    float: left;
+    }
+}
+
+
+    #homepageHeroText{
+
+        p {
+            margin-left: 5em;
+        }
+    }
 
 .sSection2ContentDiv {
         padding-left: 100px;
@@ -1931,11 +2229,8 @@ border: 2px solid #fff;
     }
     #exploreCaseStudies {
         button {
-            width: 30%;
+            width: 20%;
             margin: 0 auto;
-        }
-        p {
-            margin-top: 4em;
         }
     }
     .homepageHero {
@@ -1956,6 +2251,12 @@ border: 2px solid #fff;
     #largeClientImagesRow2 {
         padding-left: 12em;
     }
+
+    .cSection2{
+        padding-right: 10em;
+    }
+
+
 }
 
 @media only screen and (min-width: 85.9375em) {
@@ -1973,7 +2274,15 @@ border: 2px solid #fff;
    }
 }
 
+@media only screen and (min-width: 87.5em) {
+    #exploreCaseStudies {
+        button {
+            width: 50%;
+        }
+    }
+}
 @media only screen and (min-width: 87.55em) {
+
     #largeClientImagesRow2 {
         padding-left: 15em;
         padding-right: 6em;
@@ -1986,6 +2295,11 @@ border: 2px solid #fff;
         padding-right: 10em;
     }
 
+
+.cSection2 {
+        padding-left: 20em;
+
+}
 
    .section3Column {
     padding-left: 4em;
@@ -2017,6 +2331,15 @@ border: 2px solid #fff;
         padding-right: 10em;
     }
 }
+
+@media only screen and (min-width: 101.85em) {
+    #homepageHeroText {
+        p {
+            margin-left: 7em;
+        }
+    }
+}
+
 
 @media only screen and (min-width:104.25em) {
     .section2DesktopDontentDiv5{
