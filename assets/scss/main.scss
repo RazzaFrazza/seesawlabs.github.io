@@ -527,6 +527,10 @@ a:hover{
     background-size: cover;
 }
 
+.caseStudyDiv1 {
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+
 .caseStudyDiv2 {
             background-image: url(../images/caseStudiesBackgroundDark2.png);
             margin-top: 1em;
@@ -628,6 +632,10 @@ a:hover{
     display: inline-block; 
 }
 
+.vSection1Link:hover{
+    color: $color3;
+}
+
 .vSection2Image{
     width: 90%;
     margin-top: 1em;
@@ -639,7 +647,6 @@ a:hover{
 .vSection3H1Header{
     font-size: 31pt;
     color: $color2; 
-    text-align: center;
 }
 
 .vSection3Border {
@@ -758,6 +765,10 @@ a:hover{
     padding-top: 2em;
     text-align: center;
     width: 100%;
+}
+
+#contactPageDesktopNav {
+    box-shadow: inset 0 -25px 12px -26px rgba(0,0,0,0.8);
 }
 
 .cSection1 {
@@ -925,6 +936,7 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 20% 60%;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
 }
 
 .sSection1 {
@@ -1030,6 +1042,8 @@ a:hover{
     background-color: $color2;
     text-align: center;
     height: 800px;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+
 }
 
 
@@ -1905,6 +1919,7 @@ padding-bottom: 0;
     float: right;
     padding-left: 3em;
     margin-top: 2em;
+    padding-bottom: 2em;
     }
 
     .vSection2Image {
@@ -2002,6 +2017,8 @@ padding-bottom: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+
 
 
 }
@@ -2010,6 +2027,8 @@ padding-bottom: 0;
     background-image: url('../images/aboutImage2.png');
     height: 200px;
      background-position-y: -23px;
+     box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+
 
 }
 
@@ -2302,6 +2321,11 @@ border: 2px solid #fff;
 }
 
 @include media-breakpoint-up(xl) {
+
+
+    #wantToWorkWithUs{
+        clear: both;
+    }
   
    .vSection3 {
     padding-left: 6em;
@@ -2327,6 +2351,7 @@ border: 2px solid #fff;
 
     .vSection3Border5{
         margin-left: 6em;
+        width: 43%;
     }
 
    .vSection3Paragraph6{

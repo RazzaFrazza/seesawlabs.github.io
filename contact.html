@@ -16,10 +16,9 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 </head>
-
 <body>
     <div id="desktopNav">
-        <nav class="navbar navbar-nav navbar-toggler">
+        <nav id="contactPageDesktopNav" class="navbar navbar-nav navbar-toggler">
             <div class="row">
                 <div id="tabletNavLogo" class="col-sm-4 inline text-xs-center navLogoDiv">
                     <img id="navLogoImage" src="assets/images/navLogo.png" alt="Tablet SeeSaw Logo" />
@@ -82,8 +81,8 @@
     </div>
     <div class="cSection2">
         <div class="contactForm">
-        <div id="formMessages"></div>
-            <form id="cSectionForm" class="form-horizontal" action="mailto:hello@seesawlabs.com?Subject=Hi%20there" method="post" >
+            <div id="formMessages"></div>
+            <form id="cSectionForm" class="form-horizontal" action="mailto:hello@seesawlabs.com?Subject=Hi%20there" method="post">
                 <fieldset>
                     <!-- Name input-->
                     <div class="form-group" style="">
@@ -115,8 +114,7 @@
                 </fieldset>
             </form>
         </div>
-
-                <div class="locationInfo">
+        <div class="locationInfo">
             <img class="cSectionImage cSectionImage1" src="./assets/images/iconContactPageLightBulb.png">
             <p class="cSectionParagraph cSectionParagraph1">HELLO@SEESAWLABS.COM</p>
             <p class="cSectionParagraph cSectionParagraph2">512-555-5555</p>
@@ -124,7 +122,7 @@
             <p class="cSectionParagraph cSectionParagraph3">AUSTIN, TX 78702</p>
         </div>
     </div>
-        </div>
+    </div>
     <div id="footer">
         <div class="row">
             <div id="socialMediaBar" class="col-sm-12">
@@ -162,8 +160,14 @@
                 </div>
             </div>
         </div>
-        <script src="./assets/js/jquery210.min.js"></script>
-        <script src="./assets/js/app.js"></script>
+                <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+        window.jQuery || document.write('<script src="http://v4-alpha.getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')
+        </script>
+        <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js"></script>
