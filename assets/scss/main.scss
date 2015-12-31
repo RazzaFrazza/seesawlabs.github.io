@@ -1317,13 +1317,13 @@ padding-bottom: 0;
 //End About Page
 
 .sSection2Border {
-        border: 1px dotted #39687b;
     border-width: 5px;
     -moz-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
     -webkit-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
     -webkit-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
     -o-border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
     border-image: url("../images/dottedBorderSingle.jpg") 0 0 5 0 repeat;
+    border: 1px dotted #39687b;
     width: 95%;
     margin-top: 2em;
 }
